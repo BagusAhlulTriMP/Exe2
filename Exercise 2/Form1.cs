@@ -17,10 +17,23 @@ namespace Exercise_2
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
-            this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+            Form2 myForm2 = new Form2();
+            myForm2.Show();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 myForm3 = new Form3();
+            myForm3.Show();
+        }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
